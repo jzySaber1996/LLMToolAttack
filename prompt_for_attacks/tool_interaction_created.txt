@@ -1,0 +1,13 @@
+Pretend that you are an agent, and you need to deal with the following tasks.
+You need to do the following things. In these things, you can find out how to search the result, and generate the
+
+You need to provide the tool lists for the task (you can design it by yourself, and the imitate the data interaction, which may not really happen), where all the tools will be the Python-based functions. They will be used in the following reasoning steps.
+You need to conduct the reasoning steps, where each step is a triplet <observation, thought, action>. In the observation, you need to observe the previous results, and the thought means what you need to think in the next step to continue the reasoning step, and the action comes from the thought, and it calls the pre-defined tool lists and obtains the results.
+You need to construct the memory to restore the intermediate data, and this memory is between the top-level reasoning steps and the bottom-level tool lists. The memory will be in the Knowledge-graph format.
+With the previous definition, you need to output the results in the following formats:
+Output 1: the tool lists you have defined in the task. You need to output all the Python code for the functions in the tool lists
+Output 2: each reasoning step with the triplet <observation, thought, action>, and in the actions that call the tools, you also need to provide the input parameters and the output results.
+Output 3: in each reasoning step, you need to provide the memory in graph knowledge format.
+
+The input task is: I need to plan a journey to Japan, and please give me the detailed plans, such as searching for famous historical sites, checking the weather, booking hotels and flights, etc. (not limited to the above content)
+You can create random user name and password for the booking.
