@@ -1,0 +1,13 @@
+The LLM agent uses the support knowledge to help analyze the question and respond to the feedback.
+I need you to guess what "support_knowledge" is used in the current reasoning step, i.e., "current_reasoning".
+The concept "previous_reasoning" means the reasoning steps before the current reasoning step.
+The concept "following_reasoning" means the reasoning steps after the current reasoning step.
+You need to guess and generate the "support_knowledge" in the "current_reasoning", and output the results without any other information.
+The input is:
+---------------------------
+"previous_reasoning": {},
+"following_reasoning": {}
+"current_reasoning": {}
+"question": {},
+"answer": {}
+---------------------------

@@ -4,11 +4,10 @@ The concept "previous_reasoning" means the reasoning steps before the current re
 The concept "following_reasoning" means the reasoning steps after the current reasoning step.
 You need to guess and generate the "support_knowledge" in the "current_reasoning", and output the results without any other information.
 The input is:
-
-{
-"previous_reasoning": "",
-"following_reasoning": "+ Step 2: {"Observation": "Arthur's Magazine was published from 1844 to 1846, while First for Women started in 1989.", "Thought": "Since Arthur's Magazine started in the 1840s and First for Women started in 1989, Arthur's Magazine clearly started first.", "Action": "Conclude that Arthur's Magazine was started before First for Women.", "Support_Knowledge": ["Arthur's Magazine (1844\u20131846) was an American literary periodical published in Philadelphia in the 19th century.", "First for Women is a woman's magazine published by Bauer Media Group in the USA."]}",
-"current_reasoning": "{'Observation': "The query asks to compare the starting dates of two magazines: Arthur's Magazine and First for Women.", 'Thought': 'I need to find out the starting dates of both magazines to determine which one started first.', 'Action': 'Look for the background knowledge that contains information about the starting dates of these magazines.'}",
-"question": "Which magazine was started first Arthur's Magazine or First for Women?",
-"answer": "Arthur's Magazine"
-}
+---------------------------
+"previous_reasoning": {},
+"following_reasoning": {}
+"current_reasoning": {}
+"question": {},
+"answer": {}
+---------------------------

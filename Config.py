@@ -1,4 +1,4 @@
-api_key = "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" # Your ChatGPT API Key
+api_key = "Your API Key" # Your ChatGPT API Key
 path = "data/"
 prompt = """
 You run in a loop of Thought, Action, PAUSE, Observation.

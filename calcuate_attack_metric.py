@@ -8,7 +8,7 @@ os.environ["https_proxy"]="127.0.0.1:7890"
 
 from openai import OpenAI
 client = OpenAI(
-    api_key = "sk-vjLEzi6oQ6SYyqtFymRhHGWTApKQJNOezPujSgVjtLokkBTu",
+    api_key = "Your API Key",
     base_url = "https://api.agicto.cn/v1"
 )
 
